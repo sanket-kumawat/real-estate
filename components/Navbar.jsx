@@ -23,13 +23,9 @@ const Navbar = () => (
       fontSize='3xl'
       color='blue.400'
       fontWeight='bold'
+      paddingLeft='2'
     >
-      <Link
-        href='/'
-        paddingleft='2'
-      >
-        Realtor
-      </Link>
+      <Link href='/'>Realtor</Link>
     </Box>
     <Spacer />
     <Box>
@@ -60,7 +56,7 @@ const Navbar = () => (
             <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
           </Link>
           <Link
-            href='/search?purpose=for-'
+            href='/search?purpose=for-rent'
             passHref
           >
             <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
